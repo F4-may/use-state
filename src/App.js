@@ -9,17 +9,17 @@ import Count1 from "./Components/Count1"
 
 const App = () => {
       
-  // let [name, setName] = useState("")
+  let [name, setName] = useState("")
 
 
 
   return(
       <div>
-           {/* <Form1  updateName={setName}/>
-           <p>{name}</p> */}
+            <Form1  updateName={setName}/>
+           <p>{name}</p> 
             {/* <Counter1 /> */}
             {/* <Count></Count> */}
-            <Count1/>
+            {/* <Count1/> */}
       </div>
   )
 
